@@ -522,7 +522,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // ---- Auto-fetch: poll cloud for newer data ----
-    const AUTO_CHECK_INTERVAL = 30000; // 30 seconds
+    const AUTO_CHECK_INTERVAL = 10000; // 30 seconds
     let autoCheckTimer = null;
 
     async function backgroundCheck() {
